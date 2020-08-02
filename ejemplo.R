@@ -8,3 +8,6 @@
 # f <- dplyr::filter prueba este comando
 f(iris, Species == "versicolor")
 
+# prueba esta opcion en Rprofile con width = 50 y 120
+# para ver la diferencia ejecuta R en una terminal e imprime seq(70)
+# if (interactive()) { options(width = 50) }
