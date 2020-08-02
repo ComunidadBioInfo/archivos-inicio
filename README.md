@@ -6,5 +6,9 @@ Actividad de la sesión "Configuración y archivos de inicio de R", del Taller C
 Para descargar este material ejecuta el siguiente comando desde tu sesión de R:
 
 ```
+if (!require("usethis")) {
+    install.packages("usethis")
+}
+
 usethis::use_course("comunidadbioinfo/archivos-inicio")
 ```
